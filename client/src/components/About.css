@@ -1,0 +1,10 @@
+.wrapper {
+    margin: 20px;
+    border-radius: 2rem;
+}
+
+h1 {
+    font-size: clamp(4rem, 2.5vw , 8rem);
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}

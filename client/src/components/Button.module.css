@@ -1,0 +1,11 @@
+.button {
+    height: 20rem;
+    width: 40rem;
+    font-size: clamp(4rem, 2.5vw , 8rem);
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+    background-color: var(--color-blue);
+    border: 1rem solid var(--color-blue-dark);
+    border-radius: 2rem;
+}
