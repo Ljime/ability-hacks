@@ -1,10 +1,54 @@
+* {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+}
+
 .wrapper {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     border-radius: 2rem;
+    padding: 20px;
+    background-color: #284891;
 }
 
 h1 {
-    font-size: clamp(4rem, 2.5vw , 8rem);
+    font-size: 4rem;
     font-weight: 600;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.purpose {
+    margin: 16px 0;
+}
+
+.hackathon {
+    margin: 10px 0;
+}
+
+.about {
+    animation: FadeInTop .2s ;
+}
+
+
+@keyframes FadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+    80% {
+        opacity: 0.8;
+        transform: translateY(.5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

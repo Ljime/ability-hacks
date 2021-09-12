@@ -9,7 +9,7 @@ export default function Banner() {
 	return (
         <div className={classes.banner}>
             <Heading>
-                The Best Place For The Visually Impaired To Hear Their News!
+                The Best Place To Hear The News!
             </Heading>
             <Carousel autoPlay infiniteLoop showIndicators={false} showThumbs={false} showStatus={false} showArrows={false}>
                 <div>
