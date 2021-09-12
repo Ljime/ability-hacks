@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="about">
             <div className="wrapper">
-                <h1>About Hears the News:</h1>
+                <h1 className='heading'>About Hears the News:</h1>
                 <p className="purpose">The purpose of our app is to provide the latest news in an audible format. We intend to help those with visual impairments and ADHD 
                 by easing their daily news comsumption.</p>
                 <h2 className="hackathon">Hackathons: AbilityHacks, Develop To Disrupt, Digital EduHack</h2>

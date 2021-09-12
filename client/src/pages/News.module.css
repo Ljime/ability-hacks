@@ -1,3 +1,44 @@
-.news {
-    
+.button {
+    margin: 1rem auto;
+    padding: 2rem;
+    width: 80vw !important;
+    max-width: none;
+    background-color: var(--color-blue-dark);
+    animation: SlideIn 0.5s;
 }
+
+.button:hover {
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+h1 {
+    margin: 0 auto;
+    color: var(--color-blue) !important;
+}
+
+.container {
+    margin: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    animation: SlideIn 0.5s;
+}
+
+@keyframes SlideIn {
+    0% {
+        transform: translateX(-10rem);
+    }
+
+    90% {
+        transform: translateX(0.5rem);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  

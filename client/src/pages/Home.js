@@ -10,7 +10,7 @@ export default function Home() {
             <Link to='/news'> 
                 <Button className={classes.homeButton}>
                     <div> 
-                        <h2>Read Article</h2>
+                        <h2>Read Articles</h2>
                         <h2>{'->'}</h2>
                     </div>
                     <img src={logo} alt='Logo'></img>

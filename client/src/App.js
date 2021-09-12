@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Banner from './components/Banner';
 import Navbar from './components/Navbar'
 import './App.css'
@@ -7,16 +7,17 @@ import Home from './pages/Home';
 import News from './pages/News';
 
 function App() {
+
   return (
 		<Router>
 			<div className="App">
-        <Navbar />
+        		<Navbar />
 				<Route exact path="/">
 					<Banner />
-          <Home /> 
+         			 <Home /> 
 				</Route>
 				<Route path="/about">
-          <About />
+         			 <About />
 				</Route>
 				<Route path="/news">
 					<News />
